@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot_main.iml" group="SpringBoot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBoot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBoot_test.iml" group="SpringBoot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server_main.iml" group="spring-cloud-config-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-cloud-config-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-cloud-config-server_test.iml" group="spring-cloud-config-server" />
+    </modules>
+  </component>
+</project>

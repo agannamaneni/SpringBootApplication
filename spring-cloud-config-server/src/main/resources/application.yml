@@ -1,0 +1,11 @@
+server:
+  context-path: /spring-cloud-config-server
+  port: 7082
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: /Users/anusha/Desktop/Reference/SpringBootApplication
+          search-paths: spring-cloud-config-client

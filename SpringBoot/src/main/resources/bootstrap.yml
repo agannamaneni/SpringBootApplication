@@ -1,0 +1,5 @@
+spring:
+  profiles: development
+  cloud:
+    config:
+      name: springconfigclient
