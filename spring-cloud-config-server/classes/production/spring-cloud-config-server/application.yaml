@@ -7,5 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/agannamaneni/springboot/
+          uri: /Users/anusha/Desktop/Reference/SpringBootApplication/
           search-paths: spring-cloud-config-client

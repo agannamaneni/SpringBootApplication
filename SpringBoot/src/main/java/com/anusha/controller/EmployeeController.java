@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -19,12 +20,12 @@ import java.util.Collection;
 /**
  * Created by anusha on 1/3/17.
  */
-@Controller
+@RestController
 @RefreshScope
 @RequestMapping("/employees")
 public class EmployeeController {
 
-    @Value("${messages.welcomeMsg}")
+    @Value("${message.welcomeMsg}")
     private String welcomeMsg;
 
     @Autowired
@@ -54,6 +55,11 @@ public class EmployeeController {
         empService.updateEmployee(employee);
     }
 
+
+  /*  @RequestMapping("/message")
+    String getMessage() {
+        return this.message;
+    }*/
 
     @RequestMapping("/welcomeMsg")
     public ResponseEntity<?> welcome(){
