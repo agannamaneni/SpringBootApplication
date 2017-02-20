@@ -1,5 +1,5 @@
 applications:
-- name: SpringBoot-demo
+- name: SpringBoot-Test-Demo
   buildpack: java_buildpack
   path: build/libs/configuration-client-0.0.1-SNAPSHOT.jar
   instances: 1
