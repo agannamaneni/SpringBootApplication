@@ -25,7 +25,7 @@ import java.util.Collection;
 @RequestMapping("/employees")
 public class EmployeeController {
 
-    @Value("${message.welcomeMsg}")
+    @Value("${message.welcomeMsg:Default Message}")
     private String welcomeMsg;
 
     @Autowired
@@ -54,12 +54,6 @@ public class EmployeeController {
     public void updateEmployee(@RequestBody Employee employee){
         empService.updateEmployee(employee);
     }
-
-
-  /*  @RequestMapping("/message")
-    String getMessage() {
-        return this.message;
-    }*/
 
     @RequestMapping("/welcomeMsg")
     public ResponseEntity<?> welcome(){
